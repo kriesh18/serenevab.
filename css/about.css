@@ -1,0 +1,47 @@
+a{
+	text-decoration: none;
+}
+
+.header {
+  overflow: hidden;
+  background-color: white;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+ #main-menu {
+	margin: 0px;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: none;
+	grid-template-columns: repeat(4, 1fr);
+ }
+ 
+ #button {
+	width: 21em;
+	border: 1px white;
+    background: #CCCCFF;
+}
+a {
+    display: block;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+    background:#AEC6CF;
+}
+/*MAIN FOOTER SECTION*/
+
+.footer {
+	background: #F5F5F5;
+	padding: 10px;
+	margin-bottom: 5px;
+	color: black;
+	font-family: MingLiU;
+}
+
+}
